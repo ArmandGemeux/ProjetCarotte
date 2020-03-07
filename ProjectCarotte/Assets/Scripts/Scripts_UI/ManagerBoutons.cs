@@ -24,6 +24,11 @@ public class ManagerBoutons : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
+    public void GotoMenuScene()
+    {
+        SceneManager.LoadScene("MenuScene");
+    }
+
     public void Doquit()
     {
         Debug.Log("Quit");
